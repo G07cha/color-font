@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Color font",
+  "description": "Replaces regular font on all pages with colored which increasing reading speed",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js", "lib/textConverter.js", "jquery.min.js"],
+      "css": ["styles/default.css"]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}

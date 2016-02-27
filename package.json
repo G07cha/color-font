@@ -1,0 +1,26 @@
+{
+  "name": "color-font",
+  "version": "0.0.1",
+  "description": "Chrome extension that convert text to colorful squares which increasing reading speed",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G07cha/color-font.git"
+  },
+  "author": "g07cha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/G07cha/color-font/issues"
+  },
+  "homepage": "https://github.com/G07cha/color-font#readme",
+  "private": "true",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}

@@ -1,0 +1,30 @@
+.colorfont.a {
+  background: red;
+}
+
+.colorfont.b {
+  background: black;
+  color: white;
+}
+
+.colorfont.c {
+  background: cyan;
+}
+
+.colorfont.d {
+  background: grey;
+  color: white;
+}
+
+.colorfont.e {
+  background: orange;
+}
+
+.colorfont.f {
+  background: yellow;
+}
+
+.colorfont.g {
+  background: purple;
+  color: white;
+}
